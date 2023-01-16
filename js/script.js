@@ -33,7 +33,7 @@ function myButtonClicked() {
   const deliveryOnly = (basePriceNoTAX + delivery) * TAX
   const messageAndDelivery = (basePriceNoTAX + message + delivery) * TAX
 
-  else {
+   {
     document.getElementById("total").innerHTML =
       "Your total is: $" + basePrice.toFixed(2) + " including tax."
   }
